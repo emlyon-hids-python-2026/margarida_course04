@@ -6,7 +6,7 @@ Short description of the project: what it does and why.
 
 ```bash
 git clone https://github.com/emlyon-hids-python-2026/margarida_course04.git
-cd do_course01
+cd margarida_course04
 uv sync
 ```
 
