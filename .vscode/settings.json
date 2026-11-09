@@ -20,7 +20,7 @@
     "python.defaultInterpreterPath": "${workspaceFolder}/.venv/Scripts/python.exe",
     "python.terminal.activateEnvironment": false,
     "python.analysis.typeCheckingMode": "basic",
-    "python.analysis.autoImportCompletions": true,
+    "python.analysis.autoImportCompletions": false,
     "python.testing.pytestEnabled": true,
     "python.testing.unittestEnabled": false,
     "python.testing.pytestArgs": ["tests"],
@@ -35,6 +35,11 @@
         }
     },
     "notebook.formatOnSave.enabled": true,
+    "editor.quickSuggestions": false,
+    "editor.suggestOnTriggerCharacters": false,
+    "editor.parameterHints.enabled": false,
+    "editor.inlineSuggest.enabled": false,
+    "github.copilot.enable": false,
     "[json][jsonc][yaml][markdown]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
